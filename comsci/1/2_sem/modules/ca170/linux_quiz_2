@@ -1,0 +1,51 @@
+ What is the environment variable $PATH? 
+Shows bin dirs that can have progs to be executable from any directory
+
+ Show me the value of $PATH 
+depends on the system, in my system its /home/cathal/.dev/bin:/home/cathal/.local/bin:/home/cathal/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+ Find what directory "ls" is in. 
+for my system its in /usr/bin
+
+ Show the file size of the "ls" program. 
+147k
+
+ Two programs, in different directories, have the same name. One is a system program. The other is a script that you wrote. What happens when you type that name? 
+likely execute the sys prog but if the other script is higher in $PATH then that would be executed
+
+ In the previous, if you find the system program is running when you type that name, how can you make sure that your program runs instead?
+You can directly run the file by typing the direct path to it, rename  the file or export it to $PATH allowing it higher priority
+
+
+ EXTRA QUESTION (only for experienced Linux people): Get the value of $PATH and translate all the ":" characters to newline characters. 
+```
+echo $PATH | sed 's/:/\n/g'
+```
+
+
+ Issuing the command gedit will do what? 
+run gedit( a plain text editor )
+
+ Issuing the command gedit & will do what? 
+run gedit in paralell( ie detach the program )
+
+ What is the effect of the following Linux command? ls -al > myfile 
+writes all files and directorys(output of ls -al ) to the file "myfile"
+
+ What will this do? cd ls -alR 
+list entire filesystem recursively from home node
+
+ What will this do? cd / ls -alR 
+ list entire filesystem recursively
+
+
+ What will this do? cd / ls -al > outputfile.log 
+list all files and directory aswell as depth 1 of each dir, this stdout written to "/outputfile.log"
+
+ What will this do? cd / ls -al > $HOME/outputfile.log 
+list all files and directory aswell as depth 1 of each dir, this stdout written to "~/outputfile.log"
+
+ Typing the command man man > man does what? 
+write the manual entry for man command to a file named "man"
+
+

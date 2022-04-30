@@ -1,0 +1,32 @@
+** General 
+    [[file:slides01_ModuleOrganisation.pdf]]
+    [[file:Practical 1.pdf]]
+    [[file:slides02.1_reference models.pdf]]
+    file:slides02.2_devices.pdf
+
+
+** Physical Layer( Link Layer/Network Interface )
+
+*** Hardware layer
+    [[file:slides03_physicalLayer.pdf]]
+
+*** Data Link
+    [[file:slides04.1_LinkLayer1_Framing.pdf]]
+    [[file:slides04.2_LinkLayer2_ErrorControl.pdf]]
+    [[file:slides04.3_LinkLayer3_Flow Control.pdf]]
+    [[file:slides04.4_LinkLayer4_MediumAccessControl.pdf]]
+
+** Internet Layer
+
+   [[file:slides10_Addressing.pdf]]
+   [[file:slides11_IPForwardingRouting.pdf]]
+   [[file:PacketTracerInstallation.pdf]]
+   [[file:Slides.pdf]]  # Static routing
+   [[file:Practical - Static Routes.pdf]]
+   [[file:slides12_DynamicRouting.pdf]]
+
+** Transport Layer
+   [[file:slides13_TransportLayer.pdf]]
+
+** Application Layer
+   [[file:slides14_applications.pdf]]

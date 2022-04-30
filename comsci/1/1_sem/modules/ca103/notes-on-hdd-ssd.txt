@@ -1,0 +1,69 @@
+Elements of computer hardware
+	
+        # HDD
+
+	Components of a HDD( hard disk drive )
+		
+		- Platter / disk: hdds can have multiple and they are comprised of a in
+		  general aluminium / ceramic / glass with a superficial magnetic media
+		  layer ontop
+			=> it is this layer that can store the data in binary via magnetic
+			   fields
+		*Reference* https://en.wikipedia.org/wiki/Hard_disk_platter
+		
+		- Actuator: the device that has an electronic moter used to stabilize and 
+		  control the read and write heads( basically moves them to the working 
+		  area)
+
+		- The arm heads: these are typically placed just above the surface of the 
+		  platter and are used to either convert electrical current into a magnetic,
+		  that is in the case of writing, and convert magnetic fields into electrical
+		  current in the case of reading. The way in which data is stored can be 
+		  more simply demonstrated through the use of a diagram that can be seem 
+		  below
+	
+		*Reference* https://hddsurgery.com/blog/hdd-actuator
+		
+		- Spindle: a simple electrical motor that spins the platters allowing for 
+		  the read / write of data stored as strong magnetic fields 
+
+	Benefits of hdd:
+		- In general cheaper per bit storage capacity
+		*Not as much a difference in recent times however
+	
+	Benefits of ssd;
+		- Solid state, in its nature is more reliable( for the lack of moving parts )
+		- More dureable, they were originally used in aircrafts for their resistence
+		  to vibrations and forces.
+		- Faster and less noisy
+		- More fixable
+		- Less power hungry! they are more economic again due to the lack of moving 
+		  parts
+	
+	# SSD
+
+	Components of a SSD( solid state drive )
+
+		- Controller: used as a interface between the pc and the storage area
+		  it uses firware( code that is embedded into the hardware, ie not 
+		  intalled on the operating system, it is likely your keyboard uses firware
+		  to allow it to work on various different devices ). You can think of the 
+		  controller as micro-processor, it allows for a host of reliability features
+		  of which I wont dicuss lest I lose your attention.
+		
+		- The memory: this is the area that stores data, much like the hdd in binary 
+		  form. The memory is comprised of many electronic chips known as trasistors
+		  they can store data by the use of electronic switches that have to state 
+		  on or off ( ie, 1 or 0 ) much like the areas of strong magnetic field were 
+		  considered 1 and weak considered 0. Flash memory used in such storage 
+		  areas is possible by being able to store electrons, unlike volitile memory
+		  solutions that require constant power to store values( eg. ram )
+		  when electrons are stored they interfere with the electrical current which 
+		  in essence give such a module the data value of 0
+
+		* flash memory is the amazing technology that allows for such compact storage
+		  devices like sd cards
+		
+		*Reference* https://en.wikipedia.org/wiki/Solid-state_drive#Architecture_and_function	
+https://www.sciencedirect.com/topics/computer-science/floating-gate-transistor
+

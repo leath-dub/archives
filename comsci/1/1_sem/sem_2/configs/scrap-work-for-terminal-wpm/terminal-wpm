@@ -1,0 +1,28 @@
+A terminal app for practicing typing 
+
+        -Open source on github 
+        -Fully offline and intially only with random words
+        -Take with credit, monkeytypes word library
+        -Basic statistics accessible through commands
+
+    the premise of project = lightweight wpm practice envirnment for bash terminal 
+    
+
+    Main parameters/goals:
+        
+        -Basic 
+        -prints a line of text to user and records input aswell as overall time to complete
+        -if mistakes are found, those words are removed from wpm calculation
+        
+   Down the line goals:
+        
+        -more live recording of mistakes
+        -better statistics 
+        -possibly a mode that uses quotes or extracts aswell
+
+   Things I need to look out for:
+        
+        -try not to extract from the main premise
+        -try to keep as much together as possible
+        -write good documention for anyone who wants to use it
+        

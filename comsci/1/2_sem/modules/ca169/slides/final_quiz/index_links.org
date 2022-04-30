@@ -1,0 +1,16 @@
+* Links to pdf <zo - to open> <zc to close>
+  
+** Addressing
+  [[file:slides10_Addressing.pdf]]
+
+** Routing
+  [[file:slides11_IPForwardingRouting.pdf]]
+
+** Dynamic Routing
+  [[file:slides12_DynamicRouting.pdf]]
+
+** Transport Layer
+  [[file:slides13_TransportLayer.pdf]]
+
+** Applications
+  [[file:slides14_applications.pdf]]

@@ -1,0 +1,29 @@
+Predicate logic:
+
+	Propositional logic with variables(predicate is a prop. without a defined variable)
+
+		-A predicate is a object of a variable, one that can also
+		relate multiple variables , e.g p(x), p(x, y)
+
+		-The predicate can constrict the given variable/s range
+		e.g p(x): x is an int
+		hence x is an element of the integer set
+		
+		*in essence a proposition can be thought of as something that is true
+		or false and a predicate can be thought of as something that is either
+		true or false bounded by the value assigned to the variable involved* 
+		
+		-Universal statement -> "for all x"
+		-Existential statement -> "there exists x such that"
+
+		*when a variable is bound by a quantifier ( like those above ) the 
+		statement is no longer considered a predicate, rather a proposition 
+		as it no longer accepts a variable purely as input*
+		
+		Domain of discourse (D) set of objects that can be substituted for a
+		variable
+~q(x) and q(x) # example of a prop. formed by predicates
+quantifiers => "for all", "there exists", ie they restrict the variable's range
+the use of constants only in a statement, means that the statement can not be a predicate
+
+

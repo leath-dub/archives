@@ -1,0 +1,5 @@
+groff -e -G lect_4.ms -ms -Tpdf > lect_4.pdf
+https://man7.org/linux/man-pages/man7/groff_char.7.html
+man groff_char
+\[tf] therefore
+

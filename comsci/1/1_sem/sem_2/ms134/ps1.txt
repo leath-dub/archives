@@ -1,0 +1,17 @@
+Excercise 1.
+    (a) p and ~r
+    (b) r => ~q
+    (c) p or ~q
+    (d) q and ~r => p
+
+Excercise 2.
+    (a) it is monday and it is raining
+    (b) it is not monday or I am not carrying an umbrella
+    (c) if it is not raining, then I am carrying an umbrella
+    (d) if it is monday, then it is raining or I am carrying an umbrella
+
+Excercise 3.
+    (a) not equivalent
+    (b) equivalent
+    (c) equivlent 
+    (d) not equivalent

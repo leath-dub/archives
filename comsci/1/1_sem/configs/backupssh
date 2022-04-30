@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo systemctl start sshd
+cd /home/cathal/backups-linux-sd
+scp -r ~/backups-linux-sd ogradc23@student.computing.dcu.ie:~/backups-linux-sd    
+systemctl stop sshd

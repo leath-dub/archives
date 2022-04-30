@@ -1,0 +1,22 @@
+Technical notes for the application:
+    
+    -we can gather time via the ``date`` cmd
+    -record date and store the time in variable
+    -record the date after keystroke enter is pressed
+    
+    WPM calculation:
+        
+        -compare the random output to the users input
+        -if there are no mistakes ---------------------
+        -if there are mistakes, count the char length |
+        of words that are incorrect or omitted, this  |
+        is to be subtracted from the rand output char |
+        length                                        |
+        -char length of output(minus ^ if needed)   <--
+        divided by 4(average char length of word)     
+        is what the wpm output to user should be                           
+
+   Command library for reference:
+   
+        -``date +%M%S``; returns the minutes in the hour along with
+        the seconds.

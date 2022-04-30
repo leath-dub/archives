@@ -1,0 +1,301 @@
+/*=========================*/
+/* [] CSS for Portfolio [] */
+/*=========================*/
+
+/*https://stackoverflow.com/questions/20504346/increasing-the-width-of-button-by-a-few-percent-on-hover */
+/* MOVE SOMEWHERE BETTER */
+.form {
+    height: 50px;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    color: #282828;
+}
+.form input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #f9f5d7;
+    padding-top: 15px;
+    outline: none;
+}
+.form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.form label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ .content-name {
+     position: absolute;
+     bottom: 5px;
+     left: 0px;
+     transition: all 0.3s ease;
+ }
+ .form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name {
+     transform: translateY(-150%);
+     font-size: 17px;
+     color: #458588;
+}
+form {
+}
+.draft {
+    margin-top: 140px;
+    color: #282828;
+    position: relative;
+}
+.draft label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+.draft textarea {
+    border: none;
+    background-color: #f9f5d7;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.draft textarea:focus, .draft textarea:valid {
+    transition: all 0.3s ease;
+    background-color: #ffff;
+    border-bottom: 1px solid;
+    height: 288px;
+    padding-top: 20px;
+}
+.submit {
+}
+#left {
+    width: 600px;
+    float: left;
+    height: 600px;
+}
+#contact-message {
+    width: 100%;
+}
+/*.form input:focus + .label-name::after, .from input:valid + .label-name::after {
+     transform: translateX(0%); 
+}*/
+/*-----------------------*/
+/* ## Fonts ## */
+* {
+    font-family: 'Codec Pro', sans-serif;
+}
+/*-------------*/
+
+/* ## Page Dividers ## */
+hr { 
+    height: 2px;
+    width: 100%;
+    border: 2px solid;
+    color: #f9f5d7;
+    margin-top: 1000px;
+    margin-bottom: 100px;
+}
+div.spacer {
+    height: 50px;
+    width: 1304px;
+}
+/*---------------------*/
+
+/* ## Button Links ## */
+.button {
+    height: auto;
+    width: 286px;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+/*--------------------*/
+
+/* ## Box Sizing ## */
+/* box under nav and header tags */
+section.main-box {
+    height: 100%;
+    width: 64%;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    padding: 50px;
+}
+/*w3schools ref https://www.w3schools.com/csS/css3_buttons.asp */
+section.nav {
+    height: 54px;
+    width: 69.33333333333333333333333333%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+section.nav div {
+    width: 25%;
+    position: static;
+    display: flex;
+    float: left;
+}
+div.nav {
+    position: static;
+    width: 25%;
+}
+/* boxes for content of about and work sections */
+div#work, div#about {
+    display: inline-block;
+}
+#about, #work {
+    height: auto;
+    width: 44%;
+    border-style: solid;
+    border-radius: 5px; 
+    margin: 10px;
+    padding: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+section.image-gallery {
+    /*height: 500;*/
+    /*width: 800px;*/
+}
+body {
+    width: auto;
+    display: flex;
+    height: auto;
+}
+header {
+    height: 60px;
+    width: 64%;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+div.overlap-main {
+    height: auto;
+    width: 108.3333333333333%;
+    border-top: 2px solid; 
+    border-bottom: 2px solid;
+    right: 4.1%;
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+div.gallery {
+    margin-top; 100px;
+    margin-bottom; 100px;
+}
+div.contact {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/*------------------*/
+
+/* ## Element Styling ## */
+li {
+    margin: 16px;
+    font-size: large;
+}
+h1, h2, p {
+    color: #282828;
+}
+h2.image-gallery {
+    height: 23px;
+}
+/*-----------------------*/
+
+/* flexible content images code */
+img {
+    border-radius: 10px;
+}
+/*------------------------------*/
+
+/* ## Navigation Styles ## */
+.button {
+    color: #282828;
+    text-decoration: none;
+}
+.button:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease;
+}
+/* nav buttons */
+#but-about {
+    background-color: #b8bb26;
+}
+#but-work {
+    background-color: #fb4934;
+}
+#but-image {
+    background-color: #fabd2f;
+}
+#but-contact {
+    background-color: #b16286;
+}
+/*-------------------------*/
+
+/* page header styles*/
+
+/* main layout */
+
+/* ## Styling Section Content ## */
+#about, #work {
+    background-color: #ffff;
+    color: #282828;
+}
+#about-title, #work-title {
+    text-decoration: underline;
+    text-align: center;
+}
+#about-content, #work-content {
+    font-size: large;
+    line-height: 30px;
+}
+/*-------------------------------*/
+
+/* ## Section Colouring ## */
+body {
+    background-color: #458588;
+}
+section.main-box {
+    background-color: #f9f5d7;
+    color: #f2e5bc;
+}
+section.nav {
+    background-color: #282828;
+}
+header {
+    color: #bdae93;
+    background-color: #d5c4a1;
+}
+div.gallery {
+    background-color: #fabd2f;
+    color: #f2e5bc
+}
+div.contact {
+    background-color: #b16286;
+    color: #f2e5bc
+}
+/*-------------------------*/
+/* ## Image Section ## */
+figcaption.image-caption {
+    color: #282828;
+    font-size: large;
+}
+/* main box sizing */
+
+/* form styling */
+
+/* footer styling */
+
+

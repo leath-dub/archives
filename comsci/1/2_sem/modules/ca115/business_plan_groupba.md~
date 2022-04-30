@@ -1,0 +1,49 @@
+# Business Plan --> GroupBA
+
+## Financials
+
+### Growth Projections
+
+### Expenses
+
++ Application launch
+
+  Because our product is an app we have to consider the price of
+  putting it on the app store. It will cost $99 per annum to put
+  our app on the Apple store and $25 one time fee to put it on
+  the Google Play store.
+
+  Taking this into consideration we have decided to not launch
+  on the Apple store provisionally for 3 years while we test it's
+  success on the Google Play store.
+
++ Server
+
+  It should cost maximum €15/month to keep the server running. That
+  is managing a database and backend for the app aswell as our
+  static website.
+
+  The domain name `www.vestigium.ie` is available at an upfront cost
+  of €2.99 at [link www.letshostbilling.com](https://www.letshostbilling.com)
+
+  Fortunately there is no upfront cost for the server as Cathal
+  will host the services on a spare tower in his residence.
+
+_total upfront cost of(excluding monthly server fee): ~€26_
+
+**NOTE_JUNK -- remove later -- both site and app dontations**
+
++ Cash Flow
+
+|                     | Month 1 | Month 6 |
+|---------------------|---------|---------|
+| `Income`            |         |         |
+| Donations           |         |         |
+| Advertisment        |         |         |
+| Commission          |         |         |
+| `Expenses`          |         |         |
+| server              |         |         |
+| upfront costs       |         |         |
+| micellany           |         |         |
+| `Monthly Cash Flow` |         |         |
+| `Annual Cash Flow`  |         |         |

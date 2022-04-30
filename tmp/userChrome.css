@@ -1,0 +1,114 @@
+@-moz-document url("about:newtab"u) {
+    * {
+        font-family: "Iosevka" !important;
+    }
+    :root {
+        --newtab-background-color: #282828 !important;
+    }
+    body {
+        background-color: #282828 !important;
+    }
+}
+
+* {
+    font-family: "Iosevka" !important;
+}
+
+#nav-bar {
+    font-family: "Iosevka" !important;
+    font-size: 16px !important;
+    box-shadow: none !important;
+    border: none !important;
+    background-color: #282828 !important;
+}
+
+#navigator-toolbox {
+    border: none !important;
+}
+
+#TabsToolsbar {
+    margin: 0 !important;
+    border: 0px !important;
+    padding: 0px !important;
+    box-shadow: none !important;
+}
+
+.tab-background[selected="true"] {
+    margin: 0 !important;
+    border-radius: 0px !important;
+}
+.tab-content {
+    font-size: 16px !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.tab-background {
+    margin: 0 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: #282828;
+}
+.tabbrowser-tab {
+    padding: 0px !important;
+}
+#tabs-newtab-button {
+    padding: 0px !important;
+    border-radius: 0px !important;
+}
+#tabs-newtab-button:hover image {
+    background-color: #202020 !important;
+}
+.closing-tabs-spacer {
+    border-radius: 0px !important;
+}
+#tabbrowser-arrowscrollbox {
+    border: 0px !important;
+}
+hbox#nav-bar-customization-target {
+    border: 0px !important;
+    box-shadow: 0px red !important;
+}
+scrollbox {
+    box-shadow: none !important;
+    display: flex !important;
+    justify-content: row;
+    background-color: #282828;
+    box-shadow: 0px !important;
+    height: 100% !important; 
+}
+.tabbrowser-tab {
+    width: 100% !important;
+    height: 100% !important;
+}
+#TabsToolbar {
+}
+:root {
+  --tab-min-height: 36px;
+  --inline-tab-padding: 0px !important;
+  --tabpanel-background-color: #f9f9fa;
+  --tab-border-radius: 0px !important;
+  --tab-shadow-max-size: 0px !important;
+  --tab-block-margin: 0px !important;
+  --tabpanel-background-color: #F9F9FB;
+}
+#navigator-toolbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+#titlebar {
+    flex: 1;
+    align-self: stretch;
+}
+#urlbar-background {
+    border: none !important;
+    box-shadow: none !important;
+}
+:root {
+    --toolbar-field-focus-border-color: transparent !important;
+}
+.tab-close-button:hover {
+    border-radius: 100% !important;
+    background-color: salmon !important;
+    box-shadow: none !important;
+}

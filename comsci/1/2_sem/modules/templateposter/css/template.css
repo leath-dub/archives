@@ -1,0 +1,45 @@
+/* Font loading */
+@font-face {
+  font-family: "JetBrainsMonoNL Nerd Font";
+  src: url(../fonts/JetBrains Mono NL Regular Nerd Font Complete.ttf);
+}
+/* Define size to be A4 */
+html, body {
+    height:297mm;
+    width:210mm;
+    margin: auto;
+    padding: 0px;
+}
+* {
+    font-family: "JetBrainsMonoNL Nerd Font";
+}
+html {
+    background-color: #282828;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fb4944;
+    background-image: url("../background.png");
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+}
+#flex-item {
+    padding: 5px;
+    margin: 10px;
+    margin: 10px 0px 10px 10px;
+    background-color: #cdcdcd;
+}
+
+/* add margin on right of last flex item */
+div#fc1 div:nth-of-type(3) {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: white;
+}

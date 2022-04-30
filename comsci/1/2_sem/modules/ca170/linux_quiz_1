@@ -1,0 +1,83 @@
+Q: Typing "pwd" causes what to happen? 
+print the current working directory
+
+Q: Typing "cd" causes what to happen? 
+brings you to $HOME dir path
+
+Q: The "cd" command (then hit return) followed by the "pwd" command does what? 
+prints $HOME variable
+
+Q: Typing "cd" (then hit return) followed by "cd .." causes what to happen? 
+brings you to parent directory / go back up a directory( in my case it brings me to /home from /home/cathal )
+
+Q: The commands "cd" followed by "mkdir stuff" are run, what happens? 
+a directory named "stuff" is created in the home directory
+
+Q: The commands "cd" followed by "mkdir ../stuff" are run, what happens? Why? 
+a directory named "stuff" is created in parent directory of home
+
+Q: I am in my home directory and I type: cd bin - What directory am I in now? 
+~/bin
+
+Q: I am in my home directory and I type: cd /bin - What directory am I in now? 
+/bin 
+
+Q: I am in my home directory and I type: cd ../bin - What happens? Why? 
+goes to (parent to home)/bin
+
+Q: Typing "cd /" causes what to happen? 
+goes to the root directory
+
+Q: Typing "cd /" followed by "cd .." causes what to happen? 
+you stay in root, this is the ultimate parent dir
+
+Q: The commands "cd /" followed by "mkdir stuff" are run, what happens? 
+directory "stuff" is made in the path /stuff( although you most likely need root access, i.e. sudo program run or being root user )
+
+Q: Typing "cd \" causes what to happen? 
+you are prompted to enter another charecter as "\" is use as an escape character
+
+Q: What is the directory /bin for? 
+executeables, note necessarily binary programs but those that have exec rights
+
+Q: How do you list the files in /bin? 
+```ls /bin```
+
+Q: EXTRA QUESTION (only for experienced Linux people): Write a one-line command line to count the number of files in /bin 
+```
+ls /bin | wc -l
+``` 
+or 
+
+```
+ls /bin | grep --line-number . | tail -1 | sed "s/:/ /g" | awk '{print $1}'
+```
+
+Q: The command ls -l does what? 
+lists files/dirs with more info and one per line( this also displays symlinks)
+
+Q: The command ls -a does what? 
+lists all files/dirs including hidden files/dirs those with "." prefix
+
+Q: The command ls -al does what? 
+lists all files/dirs including hidden files with more info and one per line
+
+Q: The command ls -R does what? 
+lists files/dirs including the contents of directories recursively
+
+Q: On Windows command line, by typing in cd \ what happens? 
+
+
+Q: On Windows command line, by typing in cd / what happens? 
+
+
+Q: On Windows, C:\ is the equivalent of what on UNIX/Linux? 
+
+
+Q: On Windows, C:\Users\me is the equivalent of what on UNIX/Linux? 
+
+
+Q: On Windows, C:\Windows\System32 is the equivalent of what on UNIX/Linux? 
+
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/cathal/backups-linux-sd
+git add backup-linux-sd
+git commit -m "commit operation"
+git push

@@ -1,0 +1,10 @@
+Excercise 1.
+    (a) for all x-E-D P(x)
+    (b) there exists x-E-D Q(x)
+    (c) there exists x-E-D ~P(x)
+    (d) for all x-E-D ~Q(x)
+    (e) if ther exists x-E-D P(x) => ~Q(x)
+
+Excercise 2.
+    (a) for all x-E-H there exists y-E-H P(x, y)
+        ~(exist y-E-H)~(for all x-E-H) P(x, y)

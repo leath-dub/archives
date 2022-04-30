@@ -1,0 +1,180 @@
+/* Font loading */
+@font-face {
+  font-family: "JetBrainsMonoNL Nerd Font";
+  src: url(../fonts/JetBrains Mono NL Regular Nerd Font Complete.ttf), url(../fonts/FrontPageNeue.otf);
+}
+/* Define size to be A4 */
+html, body {
+    height:297mm;
+    width:210mm;
+    margin: auto;
+    padding: 0px;
+}
+body {
+    display: flex;
+    /* column ensures stacking of elements, see footer(margin auto) */
+    flex-direction: column;
+}
+* {
+    font-family: "JetBrainsMonoNL Nerd Font";
+}
+.A4 {
+    aspect-ratio: 200/297;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../circle-scatter-haikei-2.svg'), url('../stacked-waves-haikei.svg');
+}
+.qrcode {
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    background-image: url('../qrcode-1.svg');
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+}
+.download {
+    height: 100px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../qwe_download-removebg-preview.png');
+}
+
+.panel {
+    height: 150px;
+    width: 300px;
+    background: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.flex-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px 0px 5px 0px #1d2021;
+    box-shadow: 0px 0px 5px 0px #cccccc;
+    margin-left: 30px;
+}
+.panel > div {
+    height: 50px;
+    width: 300px;
+    background: #f4f4f4;
+    /*opacity: 0.07;*/
+    /*box-shadow: 0px 2px 5px 0px #1d2021;*/
+    border-radius: 5px 5px 0px 0px;
+}
+.flex-main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+}
+.flex-sub {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-span {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+.flex-span > div {
+    margin-left: 10px;
+    color: #282828;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.panel > p {
+    margin-left: 10px;
+    color: #282828;
+}
+.spacer {
+    width: 300px;
+}
+.contact {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+.contact > div {
+    color: #282828;
+    font-size: 30px;
+    font-family: "Front Page Neue";
+}
+.flex-platforms {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.instagram {
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../external-content.duckduckgo.com.png');
+}
+.twitter {
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../twitter.png');
+}
+.facebook {
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../facebook.png');
+}
+.phone {
+    height: 600px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../phone_1.png');
+    margin-right: 30px;
+}
+footer {
+    margin-top: auto;
+}
+#flex-item {
+}
+.logofont {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.logofont > div > h1 {
+    margin: 0px;
+    font-size: 100px;
+    color: #282828;
+    font-family: "Front Page Neue";
+}
+
+.logofont > div {
+}
+.logofont > div > p {
+    color: #282828;
+    font-size: 24px;
+    font-family: "JetBrainsMonoNL Nerd Font";
+}

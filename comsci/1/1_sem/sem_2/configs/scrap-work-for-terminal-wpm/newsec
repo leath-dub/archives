@@ -1,0 +1,30 @@
+#!/bin/bash
+
+cd 
+declare -i i=0
+#str=""
+echo **START**
+while [ $i -le 30 ]; do
+    r=$[$RANDOM % 200 + 1]
+    t=$(cat english_words/english | sed -n ''$r'p')
+    str=("$str $t")
+    ((i++))
+done
+echo $str
+sleep 1; echo 3;sleep 1; echo 2;sleep 1;echo 1;sleep 1
+echo GO!
+declare -i sub=0
+read -a line
+for i in "${!str[@]}"; do
+    x=$i
+    for i1 in "${!line[@]}";do
+        #if [ "$i1" == "${str[$i+1]}" ];then sub=$sub+${#i}
+        if [ "$i1" != "$x" ];then sub=($sub+${#i})
+        fi
+    done
+done
+echo $sub
+#x=$(date +%M)
+#y=$(date +%S)
+#declare -i z=$[$x*60+$y]
+#echo $z

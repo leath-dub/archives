@@ -1,0 +1,22 @@
+/*--Navbar styling--*/
+nav div {
+    background-color: #d5f9de;
+}
+nav {
+    background-color: #d5f9de;
+}
+button.navbar-toggler {
+    box-shadow: none !important;
+}
+.dropdown-item:focus {
+    background-color: #dbf4a7;
+    color: #282828;
+}
+.dropdown-item:hover {
+    background-color: #dbf4a7;
+    color: #282828
+}
+.dropdown-menu.show {
+    background-color: #d5f9de;
+}
+/*--Navbar styling--*/

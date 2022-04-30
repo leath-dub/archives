@@ -1,0 +1,14 @@
+argument = ["", 'home', 'localadm', '..', 'blott', '.', 'ca282', 'ca116', 'web', '.', 'index.html']
+                            |        |
+                           prev    curr
+
+linear search like so -->          
+                            while j < len(a):
+                                while i < len(a) and a[i] != "..":
+                                    curr = a[i]
+                                    i += 1
+                                    prev = curr
+                                if i < len(a):
+                                    a.pop(i)
+                                    a.pop(i + 1)
+                                j += 1
